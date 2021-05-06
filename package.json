@@ -1,0 +1,36 @@
+{
+  "name": "golgi",
+  "version": "0.0.0",
+  "main": "build/index.js",
+  "license": "MIT",
+  "author": "Joshua Horowitz <joshuah@alum.mit.edu>",
+  "devDependencies": {
+    "@types/jest": "^23.3.2",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.1",
+    "typescript": "^3.0.3"
+  },
+  "jest": {
+    "rootDir": ".",
+    "testMatch": [
+      "**/test\\.js"
+    ],
+    "moduleFileExtensions": [
+      "js"
+    ]
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@types/fbemitter": "^2.0.32",
+    "@types/react": "^16.4.18",
+    "fbemitter": "^2.1.1",
+    "react": "^16.7.0-alpha"
+  }
+}
